@@ -10,7 +10,7 @@ import AlbumList from './src/components/AlbumList';
 // Create a component
 const App = () => {
     return (
-        <View>
+        <View style={{flex: 1}}>
             <Header name={'React Native'}></Header>
             <AlbumList></AlbumList>
         </View>
